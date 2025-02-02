@@ -1,0 +1,31 @@
+{
+  "name": "langgraph_ts_multiple_image_context",
+  "version": "1.0.0",
+  "description": "extract context from multiple images as a single answer",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EmiRoberti77/langgraph_ts_multiple_image_context.git"
+  },
+  "keywords": [
+    "agent",
+    "langgraph",
+    "typescript",
+    "langchain",
+    "openAI"
+  ],
+  "author": "Emi Roberti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiRoberti77/langgraph_ts_multiple_image_context/issues"
+  },
+  "homepage": "https://github.com/EmiRoberti77/langgraph_ts_multiple_image_context#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
