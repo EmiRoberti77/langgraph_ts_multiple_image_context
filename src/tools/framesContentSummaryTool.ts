@@ -19,7 +19,7 @@ export async function framesContentSummary(
   });
 
   const contextString = _state.messages
-    .map((msg: HumanMessage) => msg.content)
+    .map((msg: AIMessage) => msg.content)
     .join("\n");
 
   const refinedPrompt = `instructions:${FRAMES_CONTENT_SYNTHESIS_INTRUCTION} Context:${contextString} Question:${QUESTION_SUMMURISE_CONTEXT} Answer:${ANSWER_WITH_INSTRUCTION}`;

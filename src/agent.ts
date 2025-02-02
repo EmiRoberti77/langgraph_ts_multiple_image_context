@@ -18,7 +18,7 @@ dotenv.config();
 
 export const StateAnnotations = Annotation.Root({
   ...MessagesAnnotation.spec,
-  frames: Annotation<HumanMessage>,
+  frames: Annotation<HumanMessage[]>,
   answer: Annotation<AIMessage>,
 });
 
