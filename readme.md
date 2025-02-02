@@ -138,3 +138,14 @@ docker run --rm -it multi-image-context
 ## Summary
 
 This system uses LangGraph, OpenAI GPT-4o, and Anthropic Claude to extract and synthesize contextual information from multiple images into a unified narrative. It runs as a structured LangChain agent and is containerized for seamless deployment.
+
+## LanghGraph Studio outpout
+
+
+<img width="1389" alt="Screenshot 2025-02-02 at 17 49 39" src="https://github.com/user-attachments/assets/9e81f75c-bc80-4b4a-911b-8e6666f35f89" />
+
+## LangSmith output to trace the process to the graph
+<img width="1391" alt="Screenshot 2025-02-02 at 17 51 29" src="https://github.com/user-attachments/assets/acdcb0d3-caae-440a-bdce-d4dc40669923" />
+
+<img width="840" alt="Screenshot 2025-02-02 at 17 51 48" src="https://github.com/user-attachments/assets/0d1515ea-69b8-46f8-b885-542a292877ed" />
+
