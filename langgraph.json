@@ -3,7 +3,7 @@
   "dockerfile_lines": [],
   "dependencies": ["."],
   "graphs": {
-    "emi_ai_agent": "./src/agent.ts:graph"
+    "oaix_image_context_agent": "./src/agent.ts:graph"
   },
   "env": ".env"
 }
